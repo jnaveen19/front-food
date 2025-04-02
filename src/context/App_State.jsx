@@ -3,7 +3,7 @@ import axios from "axios";
 import { useEffect } from "react";
 import { AppContext } from "./App_Context";
 function App_State(props) {
-  const url = "https://food-mxhk.onrender.com/api";
+  const url = "https://food-wuvd.onrender.com/api";
   const [token, setToken] = useState("");
   const [recipe, setrecipe] = useState([]);
   const [user, setuser] = useState([])
